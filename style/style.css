@@ -1,0 +1,64 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+:root {
+  /* Colors */
+  --White: hsl(0, 0%, 100%);
+
+  --Stone100: hsl(30, 54%, 90%); /* -Stone 100:*/
+  --Stone150: hsl(30, 18%, 87%); /* Stone 150 */
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+
+  --Brown800: hsl(14, 45%, 36%);
+
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+
+  /* Typography*/
+
+  --Fontsize: 1.3rem;
+
+}
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: var(--White);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.8rem;
+
+
+}
+
+h3{
+    font-size: 1.4rem;
+
+}
+
+p, li{
+    font-size: var(--Fontsize);
+    color: var(--Stone600);
+}
+
+/* Utilidades */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
